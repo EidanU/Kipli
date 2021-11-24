@@ -1,7 +1,13 @@
 <template>
-  <Tutorial />
+  <Header />
 </template>
 
 <script>
-export default {};
+import Header from "@/components/organisms/Header.vue";
+export default {
+  name: "Index",
+  components: {
+    Header,
+  },
+};
 </script>
