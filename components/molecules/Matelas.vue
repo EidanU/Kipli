@@ -1,7 +1,12 @@
 <template>
   <div class="w-full h-25 bg-blue-500">
-    <h2>Le matelas en latex naturel</h2>
-    <div class="h-48 w-full bg-purple-500"></div>
+    <h2 class="text-xl m-5">Le matelas en latex naturel</h2>
+    <div class="h-48 w-full bg-purple-500">
+      <img
+        src="@/static/69_113_20-min.jpg"
+        class="h-full w-full object-cover"
+      />
+    </div>
     <div class="flex w-1/2 m-auto">
       <p class="m-5">
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

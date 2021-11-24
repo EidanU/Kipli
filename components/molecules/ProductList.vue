@@ -1,13 +1,16 @@
 <template>
-  <div class="v-full flex bg-green-500">
-    <ProductCard
-      v-for="(product, index) in products"
-      :key="index"
-      v-bind:picture="product.picture"
-      v-bind:title="product.title"
-      v-bind:descriptions="product.descriptions"
-      v-bind:price="product.price"
-    />
+  <div>
+    <h2 class="text-xl m-5">Notre gamme</h2>
+    <div class="v-full flex bg-green-500 justify-between">
+      <ProductCard
+        v-for="(product, index) in products"
+        :key="index"
+        v-bind:picture="product.picture"
+        v-bind:title="product.title"
+        v-bind:descriptions="product.descriptions"
+        v-bind:price="product.price"
+      />
+    </div>
   </div>
 </template>
 <script>

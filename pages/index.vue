@@ -1,8 +1,8 @@
 <template>
   <div>
     <Header />
-    <BrandSection />
     <ResponsableProductSection />
+    <BrandSection />
     <ProductSection />
   </div>
 </template>

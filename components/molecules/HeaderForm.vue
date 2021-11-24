@@ -1,36 +1,57 @@
 <template>
-  <div class="w-80 h-96 bg-green-50 m-11 text-center">
-    <h2>Obtenir un devis</h2>
-    <p>
-      Equipez votre etablissement avec une litterire saine,, onfortable et au
-      prix juste
+  <div class="w-96 h-auto bg-green-50 m-11 text-center p-3">
+    <h2 class="text-xl font-bold">Obtenir un devis</h2>
+    <p class="mb-5 text-sm font-bold">
+      Equipez votre établissement avec une literire saine, confortable et au
+      prix juste :
     </p>
-    <form class="w-full bg-green-500 m-auto">
-      <div class="w-9/12 flex bg-blue-500 m-auto justify-between">
-        <input type="text" required placeholder="Prenom" class="w-2/5" />
-        <input type="text" required placeholder="Nom" class="w-2/5" />
+    <form class="w-full m-auto">
+      <div class="w-9/12 flex m-auto justify-between">
+        <input
+          type="text"
+          required
+          placeholder="Prenom"
+          class="w-2/5 p-1 border-2 border-opacity-100 text-sm"
+        />
+        <input
+          type="text"
+          required
+          placeholder="Nom"
+          class="w-2/5 p-1 border-2 border-opacity-100 text-sm"
+        />
       </div>
-      <input type="email" required placeholder="Email" class="m-2 w-9/12" />
+      <input
+        type="email"
+        required
+        placeholder="Email"
+        class="m-2 w-9/12 p-1 border-2 border-opacity-100 text-sm"
+      />
       <input
         type="number"
         required
         placeholder="Téléphone"
-        class="m-2 w-9/12"
+        class="m-2 w-9/12 p-1 border-2 border-opacity-100 text-sm"
       />
       <input
         type="text"
         requiredb
         placeholder="Site Internet ou Entreprise"
-        class="m-2 w-9/12"
+        class="m-2 w-9/12 p-1 border-2 border-opacity-100 text-sm"
       />
-      <textarea placeholder="Votre message" class="m-2 w-9/12"> </textarea>
-      <input type="submit" value="Envoyer ma demande" class="m-2 w-9/12" />
+      <textarea
+        placeholder="Votre message"
+        class="m-2 w-9/12 p-1 border-2 border-opacity-100 text-sm"
+      >
+      </textarea>
+      <Button type="submit" value="Envoyer ma demande" />
     </form>
-    <span>Nous vous repondrons sous 48h</span>
+    <p class="text-blue-300 text-xs">Nous vous repondrons sous 48h</p>
   </div>
 </template>
 <script>
+import Button from "@/components/atoms/Button.vue";
 export default {
   name: "HeaderForm",
+  components: { Button },
 };
 </script>
