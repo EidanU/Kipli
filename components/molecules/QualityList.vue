@@ -1,5 +1,5 @@
 <template>
-  <div class="quality">
+  <div class="v-full flex bg-green-500">
     <QualityCard
       v-for="(quality, index) in qualities"
       :key="index"
@@ -13,7 +13,7 @@
 <script>
 import QualityCard from "@/components/atoms/QualityCard.vue";
 export default {
-  name: "Qualities",
+  name: "QualityList",
   components: { QualityCard },
   data() {
     return {
@@ -28,11 +28,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-.quality {
-  width: 100%;
-  display: flex;
-  background: green;
-}
-</style>

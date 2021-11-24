@@ -11,4 +11,3 @@ export default {
   props: ["title", "icon", "text"],
 };
 </script>
-<style scoped></style>
