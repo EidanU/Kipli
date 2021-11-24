@@ -18,11 +18,31 @@ export default {
   data() {
     return {
       qualities: [
-        { title: "title", icon: "test", text: "text" },
-        { title: "title", icon: "test", text: "text 2" },
-        { title: "title", icon: "test", text: "text 3" },
-        { title: "title", icon: "test", text: "text 4" },
-        { title: "title", icon: "test", text: "text 5" },
+        {
+          title: "resilience et maintien",
+          icon: "test",
+          text: "Nos matelas s'adaptent au dormeur et non l'inverse !",
+        },
+        {
+          title: "Matieres naturelles",
+          icon: "test",
+          text: "Nos matelas sont extrêmement respirants déhoussables, anti acariens et antibactériens ",
+        },
+        {
+          title: "Economique et ecologique",
+          icon: "test",
+          text: "Des coûts optimisés grâce à une durée de vie double",
+        },
+        {
+          title: "Prix reduits",
+          icon: "test",
+          text: "Des tarifs professionnels avantageux",
+        },
+        {
+          title: "Un chargé de compte dédié",
+          icon: "test",
+          text: "Un accompagnement marketing sur-mesure",
+        },
       ],
     };
   },

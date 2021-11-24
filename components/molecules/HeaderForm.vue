@@ -19,7 +19,7 @@
       />
       <input
         type="text"
-        required
+        requiredb
         placeholder="Site Internet ou Entreprise"
         class="m-2 w-9/12"
       />
