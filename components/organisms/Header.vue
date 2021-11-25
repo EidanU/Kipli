@@ -6,7 +6,13 @@
     "
   >
     <HeadBar />
-    <HeaderForm />
+    <div class="bg-blue-500 w-96 m-11">
+      <img
+        src="https://kipli.com/_nuxt/img/kipli.0987105.svg"
+        class="w-52 m-auto"
+      />
+      <HeaderForm />
+    </div>
   </div>
 </template>
 

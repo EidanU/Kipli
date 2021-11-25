@@ -1,12 +1,12 @@
 <template>
-  <div class="w-96 h-auto bg-green-50 m-11 text-center p-3">
+  <div class="mt-5 h-auto bg-green-50 text-center p-3">
     <h2 class="text-xl font-bold">Obtenir un devis</h2>
     <p class="mb-5 text-sm font-bold">
       Equipez votre établissement avec une literire saine, confortable et au
       prix juste :
     </p>
     <form class="w-full m-auto">
-      <div class="w-9/12 flex m-auto justify-between">
+      <div class="w-9/12 flex m-auto mb-2 justify-between">
         <input
           type="text"
           required

@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full md:block flex bg-green-500">
+  <div class="w-full flex justify-between bg-green-500">
     <QualityCard
       v-for="(quality, index) in qualities"
       :key="index"
