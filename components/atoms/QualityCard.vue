@@ -1,7 +1,7 @@
 <template>
-  <div class="w-full text-center m-2 bg-white">
-    <p>{{ title }}</p>
-    <img src="iconLink" />
+  <div class="w-60 text-center m-2 bg-white inline-block">
+    <h2 class="text-xl">{{ title }}</h2>
+    <img class="m-auto my-5" src="@/static/confort.8edfb22.svg" />
     <p>{{ text }}</p>
   </div>
 </template>
