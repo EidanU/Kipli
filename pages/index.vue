@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="text-green-800">
     <Header />
     <QualitySection />
     <ResponsableProductSection />

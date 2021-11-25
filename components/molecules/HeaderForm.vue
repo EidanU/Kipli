@@ -1,7 +1,7 @@
 <template>
-  <div class="mt-5 h-auto bg-green-50 text-center p-3">
-    <h2 class="text-xl font-bold">Obtenir un devis</h2>
-    <p class="mb-5 text-sm font-bold">
+  <div class="mt-5 h-auto bg-green-50 text-center p-3 shadow-xl rounded-md">
+    <h2 class="text-xl font-bold">Obtenir un devis gratuit</h2>
+    <p class="m-auto mb-5 text-sm w-9/12">
       Equipez votre établissement avec une literire saine, confortable et au
       prix juste :
     </p>
@@ -11,36 +11,36 @@
           type="text"
           required
           placeholder="Prenom"
-          class="w-2/5 p-1 border-2 border-opacity-100 text-sm"
+          class="w-2/5 p-2 border-2 border-opacity-100 text-sm"
         />
         <input
           type="text"
           required
           placeholder="Nom"
-          class="w-2/5 p-1 border-2 border-opacity-100 text-sm"
+          class="w-2/5 p-2 border-2 border-opacity-100 text-sm"
         />
       </div>
       <input
         type="email"
         required
         placeholder="Email"
-        class="m-2 w-9/12 p-1 border-2 border-opacity-100 text-sm"
+        class="m-2 w-9/12 p-2 border-2 border-opacity-100 text-sm"
       />
       <input
         type="number"
         required
         placeholder="Téléphone"
-        class="m-2 w-9/12 p-1 border-2 border-opacity-100 text-sm"
+        class="m-2 w-9/12 p-2 border-2 border-opacity-100 text-sm"
       />
       <input
         type="text"
         requiredb
         placeholder="Site Internet ou Entreprise"
-        class="m-2 w-9/12 p-1 border-2 border-opacity-100 text-sm"
+        class="m-2 w-9/12 p-2 border-2 border-opacity-100 text-sm"
       />
       <textarea
         placeholder="Votre message"
-        class="m-2 w-9/12 p-1 border-2 border-opacity-100 text-sm"
+        class="m-2 w-9/12 p-2 border-2 border-opacity-100 text-sm"
       >
       </textarea>
       <Button type="submit" value="Envoyer ma demande" />

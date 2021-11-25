@@ -1,12 +1,12 @@
 <template>
   <div
-    class="h-screen w-screen bg-fixed"
+    class="w-screen h-screen bg-fixed"
     style="
       background-image: url('https://kipli.com/fr/wp-content/uploads/2021/10/matelas-home.jpg');
     "
   >
     <HeadBar />
-    <div class="bg-blue-500 w-96 m-11">
+    <div class="w-96 m-11 pt-10">
       <img
         src="https://kipli.com/_nuxt/img/kipli.0987105.svg"
         class="w-52 m-auto"
