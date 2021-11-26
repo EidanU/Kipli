@@ -1,5 +1,5 @@
 # Kipli_App
-Bienvenue dans Kipli une application codée en nuxt un framework de vue.js et en tailwind pour le css.
+Bienvenue dans Kipli une application codée en NuxtJS un framework de vue.js et en tailwind pour le css.
 
 ## Build Setup
 
