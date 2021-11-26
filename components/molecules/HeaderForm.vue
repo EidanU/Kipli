@@ -1,6 +1,6 @@
 <template>
-  <div class="mt-5 h-auto bg-green-50 text-center p-3 shadow-xl rounded-md">
-    <h2 class="text-xl font-bold">Obtenir un devis gratuit</h2>
+  <div class="mt-5 h-auto bg-green-50 text-center py-5 shadow-xl rounded-md">
+    <h2 class="text-xl font-bold mb-2">Obtenir un devis gratuit</h2>
     <p class="m-auto mb-5 text-sm w-9/12">
       Equipez votre établissement avec une literire saine, confortable et au
       prix juste :
@@ -11,13 +11,13 @@
           type="text"
           required
           placeholder="Prenom"
-          class="w-2/5 p-2 border-2 border-opacity-100 text-sm"
+          class="w-32 p-2 border-2 border-opacity-100 text-sm"
         />
         <input
           type="text"
           required
           placeholder="Nom"
-          class="w-2/5 p-2 border-2 border-opacity-100 text-sm"
+          class="w-32 p-2 border-2 border-opacity-100 text-sm"
         />
       </div>
       <input
@@ -45,7 +45,7 @@
       </textarea>
       <Button type="submit" value="Envoyer ma demande" />
     </form>
-    <p class="text-blue-300 text-xs">Nous vous repondrons sous 48h</p>
+    <p class="text-green-400 text-xs">Nous vous repondrons sous 48h</p>
   </div>
 </template>
 <script>

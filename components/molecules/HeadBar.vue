@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full flex h-8 bg-green-50 text-xs">
+  <div class="w-full flex h-10 bg-green-50 text-xs">
     <span class="m-auto">
       <fa icon="star" class="text-yellow-300" />
       <fa icon="star" class="text-yellow-300" />

@@ -22,19 +22,22 @@ export default {
     return {
       products: [
         {
-          picture: "picture",
+          picture:
+            "https://kipli.com/fr/wp-content/uploads/2021/10/69_113_10-min.jpg",
           title: "Commode Picardie",
           descriptions: ["bois de hêtre massif", "Latte flexibles ou rigides"],
           price: "700",
         },
         {
-          picture: "picture",
+          picture:
+            "https://kipli.com/fr/wp-content/uploads/2020/04/69_113_23-min-1.jpg",
           title: "Table de chevet Picardie",
           descriptions: ["Epicéa massif", "Latte rigides"],
           price: "700",
         },
         {
-          picture: "picture",
+          picture:
+            "https://kipli.com/fr/wp-content/uploads/2021/10/Normandie_6-min.jpg",
           title: "Etagère Picardie",
           descriptions: ["bois de hêtre massif", "Latte flexibles ou rigides"],
           price: "700",

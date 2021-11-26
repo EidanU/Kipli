@@ -1,7 +1,7 @@
 <template>
-  <div class="w-60 text-center m-2 bg-white inline-block">
+  <div class="w-60 text-center">
     <h2 class="text-xl">{{ title }}</h2>
-    <img class="m-auto my-5" src="@/static/confort.8edfb22.svg" />
+    <img class="m-auto my-5 w-12 h-12" :src="iconLink" />
     <p>{{ text }}</p>
   </div>
 </template>
