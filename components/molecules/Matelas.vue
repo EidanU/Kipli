@@ -1,14 +1,15 @@
 <template>
-  <div class="w-full h-25 bg-blue-500">
-    <h2 class="text-xl m-5">Le matelas en latex naturel</h2>
-    <div class="h-48 w-full bg-purple-500">
-      <img
-        src="@/static/69_113_20-min.jpg"
-        class="h-full w-full object-cover"
-      />
+  <div class="w-full">
+    <h2 class="text-2xl m-28 mb-12 mt-0 font-bold">
+      Le matelas en latex naturel
+    </h2>
+    <div class="h-auto w-full bg-purple-500">
+      <img src="@/static/69_113_20-min.jpg" class="h-64 w-full object-cover" />
     </div>
-    <div class="flex w-1/2 m-auto">
-      <p class="m-5">
+    <div class="flex w-2/3 m-auto mt-12">
+      <p
+        class="m-5 text-transparent bg-clip-text bg-gradient-to-b from-black to-transparent"
+      >
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -17,7 +18,9 @@
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt
         mollit anim id est laborum."
       </p>
-      <p class="m-5">
+      <p
+        class="m-5 text-transparent bg-clip-text bg-gradient-to-b from-black to-transparent"
+      >
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -27,6 +30,11 @@
         mollit anim id est laborum."
       </p>
     </div>
+    <img
+      src="https://kipli.com/_nuxt/img/direction_border_right.28b944c.svg"
+      class="m-auto w-10 mt-0"
+      :style="{ transform: 'rotate(90deg)' }"
+    />
   </div>
 </template>
 <script>

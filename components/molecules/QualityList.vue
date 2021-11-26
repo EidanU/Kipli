@@ -1,5 +1,5 @@
 <template>
-  <div class="v-full flex bg-green-500">
+  <div class="mx-16 mt-12 flex justify-between">
     <QualityCard
       v-for="(quality, index) in qualities"
       :key="index"
@@ -19,28 +19,28 @@ export default {
     return {
       qualities: [
         {
-          title: "resilience et maintien",
-          iconLink: "@/static/confort.8edfb22.svg",
+          title: "Résilience et maintien",
+          iconLink: "https://kipli.com/_nuxt/img/100nuits.f67536c.svg",
           text: "Nos matelas s'adaptent au dormeur et non l'inverse !",
         },
         {
           title: "Matieres naturelles",
-          iconLink: "@/static/naturel.bfa3a54.svg",
+          iconLink: "https://kipli.com/_nuxt/img/sain.21cd3d2.svg",
           text: "Nos matelas sont extrêmement respirants déhoussables, anti acariens et antibactériens ",
         },
         {
-          title: "Economique et ecologique",
-          iconLink: "@/static/sain.21cd3d2.svg",
+          title: "Economique et écologique",
+          iconLink: "https://kipli.com/_nuxt/img/naturel.bfa3a54.svg",
           text: "Des coûts optimisés grâce à une durée de vie double",
         },
         {
           title: "Prix reduits",
-          iconLink: "@/static/service.5e4f5b5.svg",
+          iconLink: "https://kipli.com/_nuxt/img/garantie.b84121b.svg",
           text: "Des tarifs professionnels avantageux",
         },
         {
           title: "Un chargé de compte dédié",
-          iconLink: "@/static/service.5e4f5b5.svg",
+          iconLink: "https://kipli.com/_nuxt/img/client.6cebc10.svg",
           text: "Un accompagnement marketing sur-mesure",
         },
       ],
