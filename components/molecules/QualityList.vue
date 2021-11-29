@@ -1,5 +1,7 @@
 <template>
-  <div class="mx-16 mt-12 flex justify-between">
+  <div
+    class="md:mx-16 md:mt-12 md:flex-row md:justify-between md:items-start m-auto flex items-center flex-col"
+  >
     <QualityCard
       v-for="(quality, index) in qualities"
       :key="index"

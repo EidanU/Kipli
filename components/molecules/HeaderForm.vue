@@ -11,13 +11,13 @@
           type="text"
           required
           placeholder="Prenom"
-          class="w-32 p-2 border-2 border-opacity-100 text-sm"
+          class="md:w-32 w-2/5 p-2 border-2 border-opacity-100 text-sm"
         />
         <input
           type="text"
           required
           placeholder="Nom"
-          class="w-32 p-2 border-2 border-opacity-100 text-sm"
+          class="md:w-32 w-2/5 p-2 border-2 border-opacity-100 text-sm"
         />
       </div>
       <input

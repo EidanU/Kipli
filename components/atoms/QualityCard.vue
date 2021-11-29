@@ -1,5 +1,5 @@
 <template>
-  <div class="w-60 text-center">
+  <div class="w-60 text-center md:mt-0 mt-10">
     <h2 class="text-xl">{{ title }}</h2>
     <img class="m-auto my-5 w-12 h-12" :src="iconLink" />
     <p>{{ text }}</p>

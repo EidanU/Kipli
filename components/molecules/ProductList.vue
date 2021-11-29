@@ -1,7 +1,9 @@
 <template>
   <div class="m-16">
-    <h2 class="text-xl m-12 font-bold">Notre gamme</h2>
-    <div class="v-full flex justify-between">
+    <h2 class="text-xl m-12 font-bold text-center md:text-left">Notre gamme</h2>
+    <div
+      class="v-full flex flex-col justify-between items-center md:m-0 md:flex-row md:items-start"
+    >
       <ProductCard
         v-for="(product, index) in products"
         :key="index"

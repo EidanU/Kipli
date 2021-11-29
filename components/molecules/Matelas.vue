@@ -1,12 +1,12 @@
 <template>
   <div class="w-full">
-    <h2 class="text-2xl m-28 mb-12 mt-0 font-bold">
+    <h2 class="text-2xl md:m-28 mb-12 mt-0 font-bold text-center md:text-left">
       Le matelas en latex naturel
     </h2>
     <div class="h-auto w-full bg-purple-500">
       <img src="@/static/69_113_20-min.jpg" class="h-64 w-full object-cover" />
     </div>
-    <div class="flex w-2/3 m-auto mt-12">
+    <div class="flex md:w-2/3 m-auto mt-12 w-3/4 md:flex-row flex-col">
       <p
         class="m-5 text-transparent bg-clip-text bg-gradient-to-b from-black to-transparent"
       >
@@ -18,6 +18,11 @@
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt
         mollit anim id est laborum."
       </p>
+      <img
+        src="https://kipli.com/_nuxt/img/direction_border_right.28b944c.svg"
+        class="m-auto w-10 mt-0 md:hidden"
+        :style="{ transform: 'rotate(90deg)' }"
+      />
       <p
         class="m-5 text-transparent bg-clip-text bg-gradient-to-b from-black to-transparent"
       >

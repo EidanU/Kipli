@@ -6,7 +6,7 @@
     "
   >
     <HeadBar />
-    <div class="w-96 m-11 pt-3">
+    <div class="md:w-96 w-4/5 m-auto md:m-11 md:pt-3 mt-10">
       <img
         src="https://kipli.com/_nuxt/img/kipli.0987105.svg"
         class="w-52 m-auto"
