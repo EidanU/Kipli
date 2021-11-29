@@ -23,7 +23,7 @@ export default {
         {
           title: "Résilience et maintien",
           iconLink: "https://kipli.com/_nuxt/img/100nuits.f67536c.svg",
-          text: "Nos matelas s'adaptent au dormeur et non l'inverse !",
+          text: "Nos matelas s'adaptent aux dormeurs et non l'inverse !",
         },
         {
           title: "Matieres naturelles",
