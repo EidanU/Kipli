@@ -1,5 +1,7 @@
 <template>
-  <div class="mx-16 mt-12 flex justify-between">
+  <div
+    class="md:mx-16 md:mt-12 md:flex-row md:justify-between md:items-start m-auto flex items-center flex-col"
+  >
     <QualityCard
       v-for="(quality, index) in qualities"
       :key="index"
@@ -21,7 +23,7 @@ export default {
         {
           title: "Résilience et maintien",
           iconLink: "https://kipli.com/_nuxt/img/100nuits.f67536c.svg",
-          text: "Nos matelas s'adaptent au dormeur et non l'inverse !",
+          text: "Nos matelas s'adaptent aux dormeurs et non l'inverse !",
         },
         {
           title: "Matieres naturelles",
