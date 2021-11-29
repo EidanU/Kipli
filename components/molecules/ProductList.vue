@@ -1,8 +1,8 @@
 <template>
-  <div class="m-16">
-    <h2 class="text-xl m-12 font-bold text-center md:text-left">Notre gamme</h2>
+  <div class="lg:m-16 m-auto my-16">
+    <h2 class="text-xl m-12 font-bold text-center lg:text-left">Notre gamme</h2>
     <div
-      class="v-full flex flex-col justify-between items-center md:m-0 md:flex-row md:items-start"
+      class="w-full flex flex-col justify-between items-center lg:m-0 lg:flex-row lg:items-start"
     >
       <ProductCard
         v-for="(product, index) in products"

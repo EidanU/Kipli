@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-screen h-screen bg-cover"
+    class="w-full h-screen bg-cover"
     style="
       background-image: url('https://kipli.com/fr/wp-content/uploads/2021/10/matelas-home.jpg');
     "

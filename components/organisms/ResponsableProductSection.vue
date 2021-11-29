@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center h-96 mt-16">
+  <div class="text-center md:h-96 h-auto mt-16">
     <h2 class="text-3xl font-bold m-5">Des produits responsables</h2>
 
     <!-- <img

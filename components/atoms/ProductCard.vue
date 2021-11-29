@@ -1,5 +1,5 @@
 <template>
-  <div class="md:w-96 w-11/12 shadow-xl rounded-md md:mt-0 mt-10">
+  <div class="md:w-96 w-11/12 shadow-xl rounded-md lg:mt-0 mt-10">
     <img :src="picture" />
     <div class="p-5">
       <div class="flex justify-between">
