@@ -16,12 +16,12 @@
         </div>
       </div>
       <p v-for="(description, index) in descriptions" :key="index">
-        <fa icon="check" />
+        <fa icon="check" class="text-cutomText-blue mr-2" />
         {{ description }}
       </p>
-      <p class="text-right text-xs text-green-200">
+      <p class="text-right text-sm text-cutomText-blue">
         A partir de
-        <span class="font-bold text-sm">{{ price }} €</span>
+        <span class="font-bold text-xl">{{ price }} €</span>
       </p>
     </div>
   </div>

@@ -1,5 +1,7 @@
 <template>
-  <div class="mt-5 h-auto bg-green-50 text-center py-5 shadow-xl rounded-md">
+  <div
+    class="mt-5 h-auto bg-backgroundGreen text-center py-5 shadow-xl rounded-md"
+  >
     <h2 class="text-xl font-bold mb-2">Obtenir un devis gratuit</h2>
     <p class="m-auto mb-5 text-sm w-9/12">
       Equipez votre établissement avec une literire saine, confortable et au
@@ -45,7 +47,7 @@
       </textarea>
       <Button type="submit" value="Envoyer ma demande" />
     </form>
-    <p class="text-green-400 text-xs">Nous vous repondrons sous 48h</p>
+    <p class="text-cutomText-blue text-xs">Nous vous repondrons sous 48h</p>
   </div>
 </template>
 <script>
