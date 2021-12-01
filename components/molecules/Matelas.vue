@@ -4,7 +4,10 @@
       Le matelas en latex naturel
     </h2>
     <div class="h-auto w-full bg-purple-500">
-      <img src="@/static/69_113_20-min.jpg" class="h-64 w-full object-cover" />
+      <img
+        src="https://kipli.com/it/wp-content/uploads/2021/09/home-1-scaled.jpg"
+        class="h-64 w-full object-cover"
+      />
     </div>
     <div class="flex md:w-2/3 m-auto mt-12 w-3/4 md:flex-row flex-col">
       <p
