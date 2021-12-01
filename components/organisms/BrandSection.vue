@@ -1,9 +1,9 @@
 <template>
-  <div class="w-full">
+  <div class="w-full md:h-96 h-auto md:px-16">
     <h2 class="text-xl font-bold text-center mb-12 md:mt-0 mt-10">
       Il nous font confiance
     </h2>
-    <div class="h-96 w-full bg-green-500"></div>
+    <img src="@/static/capture.png" class="object-cover" alt="matelas" />
   </div>
 </template>
 
